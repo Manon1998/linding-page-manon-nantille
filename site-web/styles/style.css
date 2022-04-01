@@ -1,0 +1,56 @@
+@import url('banner.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import	url('footer.css');
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.bloque {
+	background-image: url("../images/bloque.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bloque p {
+	padding: 10px;
+}
+
+.bloque p,a {
+	background-color: rgba(0, 0, 0, .5);
+	width: 80%;
+}
+.histoire-cta {
+	background-color: rgb(184, 124, 85);
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	margin: 0 auto;
+	display: block;
+	width: 25%;
+	border: 1px solid rgb(184, 124, 85);
+	transition: 1s;
+	text-align: center;
+}	
+
